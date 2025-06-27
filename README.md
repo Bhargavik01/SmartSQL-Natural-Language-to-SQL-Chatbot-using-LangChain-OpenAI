@@ -1,5 +1,5 @@
 # SmartSQL-Natural-Language-to-SQL-Chatbot-using-LangChain-OpenAI
-# 🧠 SmartSQL: Natural Language to SQL Chatbot using LangChain + OpenAI
+## 🧠 SmartSQL: Natural Language to SQL Chatbot using LangChain + OpenAI
 
 ---
 
@@ -18,17 +18,17 @@
 
 
 
-# ⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 Clone the repo  
 git clone https://github.com/Bhargavik01/sql-chatbot.git  
 cd sql-chatbot
 
-# Create virtual environment
+## Create virtual environment
 python3 -m venv sqlchatbot
 source sqlchatbot/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt  
 Create .env file  
 OPENAI_API_KEY=your-openai-key  
@@ -36,12 +36,12 @@ Run the chatbot
 python main.py
 
 
-# 📋 Example
+## 📋 Example
 
 
-# User Question: How many policy states were available?
+## User Question: How many policy states were available?
 SELECT COUNT(DISTINCT policy_state) FROM claims;
-# Response:
+## Response:
 There are 12 unique policy states recorded in the claims dataset, highlighting the geographic spread of the insurance policies. This suggests a diverse customer base and potential regional trends in claims.
 
 🔮 Future Enhancements
